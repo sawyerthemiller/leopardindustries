@@ -60,3 +60,4 @@ nitro.fandom.com##DIV[id="p-views"][class="page-header__actions"]
 nitro.fandom.com##DIV[class="page-side-tools"]
 https://www.nitrotype.com/cars/58_small_1.png
 www.nitrotype.com##DIV[class="profile-ad well well--b"]
+www.nitrotype.com##DIV[class="notify"]
