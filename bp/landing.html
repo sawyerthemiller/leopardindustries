@@ -52,6 +52,28 @@
         background-color:  rgba(0, 100, 255, 0.5);
         backdrop-filter: blur(6px);
     }
+
+    audio {
+    transform: scale(0.7);
+    opacity: 0.2;
+}
+
+    audio:hover {
+    opacity: 0.5;
+    }
+
+    audio::-webkit-media-controls-panel {
+  background-color: rgba(135, 255, 140, 1);
+}
+
+audio::-webkit-media-controls-current-time-display {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 </style>
 <title>Leopard Industries</title>
 </head>
@@ -72,7 +94,19 @@
     <table>
         <tr>
             <td>
-                Beautiful Poetry Viewer v.2023.10.5
+                Beautiful Poetry Viewer v.2023.10.6
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td style="font-weight: bold; text-align: left; width: 75%;">
+                Listen to some classical music while reading.
+            </td>
+            <td>
+                <audio controls><source src="https://stream.srg-ssr.ch/m/rsc_de/mp3_128" type="audio/mpeg">Your browser does not support the audio tag.</audio>
+
             </td>
         </tr>
     </table>
@@ -99,10 +133,10 @@
                     </li>
                     <ul>
                         <li>
-                            <a style="text-decoration: none;" href="/leopardindustries/bp/dickinson-bird/dickinson-bird.html">A Bird, came down the Walk</a>
+                            <a style="text-decoration: none;" href="/leopardindustries/bp/dickinson-bird/dickinson-bird.html" target="_blank">A Bird, came down the Walk</a>
                         </li>
                         <li>
-                            <a style="text-decoration: none;" href="/leopardindustries/bp/dickinson-hope/dickinson-hope.html">“Hope” is the thing with feathers</a>
+                            <a style="text-decoration: none;" href="/leopardindustries/bp/dickinson-hope/dickinson-hope.html" target="_blank">“Hope” is the thing with feathers</a>
                         </li>
                     </ul>
                     <li style="font-weight: bold;">
@@ -110,10 +144,10 @@
                     </li>
                     <ul>
                         <li>
-                            <a style="text-decoration: none;" href="/leopardindustries/bp/frost-stopping/frost-stopping.html">Stopping by Woods on a Snowy Evening</a>
+                            <a style="text-decoration: none;" href="/leopardindustries/bp/frost-stopping/frost-stopping.html" target="_blank">Stopping by Woods on a Snowy Evening</a>
                         </li>
                         <li>
-                            <a style="text-decoration: none;" href="/leopardindustries/bp/frost-october/frost-october.html">October</a>
+                            <a style="text-decoration: none;" href="/leopardindustries/bp/frost-october/frost-october.html" target="_blank">October</a>
                         </li>
                     </ul>
                 </ul>
