@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+    ul.bpnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(0, 100, 255, 0.5);
+        border-radius: 10px;
+        border: 4px double black;
+        backdrop-filter: blur(6px);
+    }
+
+    li.bpnav {
+        float: right;
+    }
+
+
+    li a.bpnav, li a.time {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    li a.bpnav:hover {
+        background-color: rgba(135, 255, 140, 0.4);
+    }
+
+    li a.time {
+        background-color:rgba(135, 255, 140, 0.4);
+    }
+
+    td, table {
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+    }
+
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px; 
+        text-align: left; 
+        width: 1000px;
+        border-radius: 5px;
+        background-color:  rgba(0, 100, 255, 0.5);
+        backdrop-filter: blur(6px);
+    }
+</style>
+<title>Leopard Industries</title>
+</head>
+<body style="background-image: url(https://wallpaperswide.com/download/the_starry_night-wallpaper-1680x1050.jpg); background-repeat: no-repeat;">
+
+    <ul class="bpnav">
+        <li class="bpnav" style="float: left; font-weight: bold;"><a href="" id="current_date" class="time"></a></li>
+        <li class="bpnav"><a class="bpnav" href="/leopardindustries">leopard industries</a></li>
+        <li class="bpnav" style="font-weight: bold;"><a class="bpnav" href="/leopardindustries/downloads.html">beautiful poetry</a></li>
+    </ul>
+
+    <script>
+        dt= new Date();
+        dt = dt.toLocaleDateString('en-us', { weekday:"short", month:"short", day:"numeric"});
+        document.getElementById("current_date").innerHTML = dt
+    </script>
+
+    <table>
+        <tr>
+            <td>
+                Beautiful Poetry Viewer v.2023.10.5
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>
+                Directory of Poems (sorted a-z)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li style="font-weight: bold;">
+                        Robert Frost
+                    </li>
+                    <ul>
+                        <li>
+                            <a style="text-decoration: none;" href="/leopardindustries/bp/frost-stopping/frost-stopping.html">Stopping by Woods on a Snowy Evening</a>
+                        </li>
+                    </ul>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
