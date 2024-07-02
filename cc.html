@@ -47,6 +47,16 @@
 </head>
 <body>
 
+    <script>
+        function isMobileDevice() {
+            return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+        }
+    
+        if (isMobileDevice()) {
+            alert("This site may look better on a computer.");
+        }
+    </script>
+
     <table style="width: 664px;">
         <tr>
             <td class="headtd"></td>
@@ -104,7 +114,7 @@
     </table>
 
     <script>
-        const fileUrl = 'http://70.92.228.206:8887/flavours.txt';
+        const fileUrl = 'flavours.txt';
 
         async function fillTable() {
             try {
