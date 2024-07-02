@@ -1,4 +1,4 @@
-server test Espresso
+Espresso
 Pistachio
 Superman
 Lavender Honey
