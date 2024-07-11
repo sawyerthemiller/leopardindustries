@@ -1,34 +1,37 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>iSeek</title>
-<style>
-    td {
-        border: 3px solid black;
-    }
-</style>
+    <title>iSeek</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            border: 3px solid black;
+            text-decoration: none;
+            color: black;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-
-    <table style="margin: 7px auto; transform: scale(0.65);">
-        <tr>
-            <td>
-                <img src="https://i.ibb.co/x6VmvBZ/iseek-server.png">
-            </td>
-        </tr>
-    </table>
-
-    <table style="margin: 7px auto; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-        <tr>
-            <td>
-                <a href="70.92.228.206/Soulseek/">Downloads</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="70.92.228.206:5030/searches/">Soulseek</a>
-            </td>
-        </tr>
-    </table>
-
+    <div class="container">
+        <img src="https://i.ibb.co/x6VmvBZ/iseek-server.png" alt="iSeek Server">
+        <a href="http://70.92.228.206/Soulseek/">Downloads</a>
+        <a href="http://70.92.228.206:5030/searches/">Soulseek</a>
+    </div>
 </body>
 </html>
